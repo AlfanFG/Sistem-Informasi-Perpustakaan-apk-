@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:layout_height="match_parent"
+    tools:context=".ActivityInput">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="ID Pinjam"/>
+
+    <EditText
+        android:id="@+id/etPinjaman1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/etPinjaman1"
+        android:text="Nama Peminjam"/>
+
+    <EditText
+        android:id="@+id/etPinjaman2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPinjaman2"
+        android:layout_below="@+id/etPinjaman2"
+        android:text="Judul Buku"/>
+
+    <EditText
+        android:id="@+id/etPinjaman3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/txtViewPinjaman4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPinjaman3"
+        android:layout_below="@+id/etPinjaman3"
+        android:text="Tanggal Pinjam"/>
+
+    <EditText
+        android:id="@+id/etPinjaman4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewPinjaman4"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnTanggal1"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtViewPinjaman4"
+        android:layout_toRightOf="@+id/etPinjaman4"
+        android:background="@drawable/ic_baseline_calendar_today_24"/>
+
+    <TextView
+        android:id="@+id/txtViewPinjaman5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/etPinjaman4"
+        android:text="Tanggal Pengembalian"/>
+
+    <EditText
+        android:id="@+id/etPinjaman5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewPinjaman5"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnTanggal2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtViewPinjaman5"
+        android:layout_toRightOf="@+id/etPinjaman5"
+        android:background="@drawable/ic_baseline_calendar_today_24"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPinjaman5"
+        android:layout_below="@+id/etPinjaman5"
+        android:text="Status"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnSimpanPinjaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/etPinjaman3"
+        android:layout_alignParentBottom="true"
+        android:text="Simpan"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>

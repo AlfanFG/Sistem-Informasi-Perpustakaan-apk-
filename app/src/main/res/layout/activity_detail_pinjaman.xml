@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDetailPinjaman">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="15dp"
+        android:text="ID Pinjam"/>
+
+    <TextView
+        android:id="@+id/etPinjaman1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:textSize="20dp"
+        android:text="TextView"
+        />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/etPinjaman1"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/etPinjaman1"
+        android:textSize="15dp"
+        android:text="Nama Peminjam"/>
+
+    <TextView
+        android:id="@+id/etPinjaman2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/etPinjaman2"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPinjaman2"
+        android:layout_below="@+id/etPinjaman2"
+        android:textSize="15dp"
+        android:text="Judul Buku"/>
+
+    <TextView
+        android:id="@+id/etPinjaman3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+    <View
+    android:id="@+id/view3"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#185ADB"
+    android:layout_below="@+id/etPinjaman3"/>
+
+    <TextView
+        android:id="@+id/txtViewPinjaman4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPinjaman3"
+        android:layout_below="@+id/etPinjaman3"
+        android:textSize="15dp"
+        android:text="Tanggal Pinjam"/>
+
+    <TextView
+        android:id="@+id/etPinjaman4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewPinjaman4"
+        android:textSize="20dp"
+        android:text="TextView"
+        />
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/etPinjaman4"/>
+
+    <TextView
+        android:id="@+id/txtViewPinjaman5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/etPinjaman4"
+        android:textSize="15dp"
+        android:text="Tanggal Pengembalian"/>
+
+    <TextView
+        android:id="@+id/etPinjaman5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtViewPinjaman5"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/etPinjaman5"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etPinjaman5"
+        android:layout_below="@+id/etPinjaman5"
+        android:text="Status"/>
+
+    <TextView
+        android:id="@+id/etPinjaman6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/etPinjaman6"/>
+
+</RelativeLayout>
+

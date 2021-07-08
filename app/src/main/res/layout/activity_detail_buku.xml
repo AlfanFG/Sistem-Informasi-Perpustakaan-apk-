@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:layout_height="match_parent"
+    tools:context=".ActivityInput">
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"
+        android:text="ID buku"/>
+
+    <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView1"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/txtView2"/>
+
+    <TextView
+        android:id="@+id/txtView3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtView1"
+        android:textSize="20dp"
+        android:layout_below="@+id/view1"
+        android:text="Judul Buku"/>
+
+    <TextView
+        android:id="@+id/txtView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView3"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/txtView4"/>
+
+    <TextView
+        android:id="@+id/txtView5"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtView1"
+        android:layout_below="@+id/view2"
+        android:textSize="20dp"
+        android:text="Penulis"/>
+
+    <TextView
+        android:id="@+id/txtView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView5"
+        android:textSize="20dp"
+        android:text="TextView"
+        android:inputType="text"
+        />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/txtView6"/>
+
+    <TextView
+        android:id="@+id/txtView7"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtView1"
+        android:layout_below="@+id/view3"
+        android:textSize="20dp"
+        android:text="Tahun Terbit"/>
+
+    <TextView
+        android:id="@+id/txtView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtView7"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#185ADB"
+        android:layout_below="@+id/txtView8"/>
+</RelativeLayout>

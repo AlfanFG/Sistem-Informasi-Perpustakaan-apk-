@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SistemInformasiPerpustakaan</string>
+    <string-array name="status">
+        <item>Belum Selesai</item>
+        <item>Selesai</item>
+    </string-array>
+</resources>
